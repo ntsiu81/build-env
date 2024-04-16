@@ -1,0 +1,28 @@
+{
+    "name": "charlretief/build-env",
+    "description": "Composer plugin to build .env files from .env.example with advanced configuration management",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Charl Retief",
+            "email": "charl.retief@payfast.co.za"
+        }
+    ],
+	"type": "composer-plugin",
+    "require": {
+        "ext-json": "*",
+        "composer-plugin-api": "^2",
+        "vlucas/phpdotenv": ">=4.0.0 <6.0.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "BuildEnv\\Composer\\": "src/"
+		}
+    },
+    "extra": {
+        "class": "BuildEnv\\Composer\\BuildEnvPlugin"
+    }
+}
