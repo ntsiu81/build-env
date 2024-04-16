@@ -1,5 +1,5 @@
 {
-    "name": "charlretief/build-env",
+    "name": "ntsiu81/build-env",
     "description": "Composer plugin to build .env files from .env.example with advanced configuration management",
     "license": "GPL-3.0",
     "authors": [
