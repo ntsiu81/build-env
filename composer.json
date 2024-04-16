@@ -11,7 +11,8 @@
 	"type": "composer-plugin",
     "require": {
 	"ext-json": "*",
-        "composer-plugin-api": "^2.0"
+        "composer-plugin-api": "^2.0",
+	"vlucas/phpdotenv": "^5.6.0"
     },
     "require-dev": {
         "composer/composer": "^2.0"
