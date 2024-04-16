@@ -4,10 +4,9 @@ namespace BuildEnv\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
-use Composer\Plugin\PluginInterface;
 use Composer\Plugin\Capable;
 
-class BuildEnvPlugin implements PluginInterface, Capable
+class BuildEnvPlugin implements Capable
 {
     public function activate(Composer $composer, IOInterface $io)
     {
