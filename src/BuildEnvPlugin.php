@@ -13,11 +13,11 @@ abstract class BuildEnvPlugin implements PluginInterface, Capable
     {
     }
 
-    public function deactivate(Composer $composer, IOInterface $io)
+    abstract public function deactivate(Composer $composer, IOInterface $io)
     {
     }
 
-    public function uninstall(Composer $composer, IOInterface $io)
+    abstract public function uninstall(Composer $composer, IOInterface $io)
     {
     }
 
