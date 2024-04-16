@@ -7,17 +7,17 @@ use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 use Composer\Plugin\Capable;
 
-abstract class BuildEnvPlugin implements PluginInterface, Capable
+class BuildEnvPlugin implements PluginInterface, Capable
 {
     public function activate(Composer $composer, IOInterface $io)
     {
     }
 
-    abstract public function deactivate(Composer $composer, IOInterface $io)
+     public function deactivate(Composer $composer, IOInterface $io)
     {
     }
 
-    abstract public function uninstall(Composer $composer, IOInterface $io)
+     public function uninstall(Composer $composer, IOInterface $io)
     {
     }
 
